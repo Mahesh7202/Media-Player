@@ -1,0 +1,117 @@
+.button{
+    -fx-focus-color:null;
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-padding: 0;
+    -fx-background-color:transparent;
+    -fx-effect: dropshadow( three-pass-box , rgba(7, 7, 7, 0.2) , 1, 0.0 , 0 , 1);
+    -fx-scale-x:2;
+    -fx-scale-y:2;
+}
+
+.button:hover{
+    -fx-scale-y:2.4;
+}
+
+
+#title{
+    -fx-font-family:"fantasy";
+    -fx-font-size: 23px;
+    -fx-font-weight:bold;
+    -fx-text-fill: #ff6939;
+}
+.label{
+    -fx-font-family:"fantasy";
+    -fx-font-size: 23px;
+    -fx-font-weight:bold;
+    -fx-text-fill: #ff6939;
+}
+
+#bottom{
+    -fx-border-width:0;
+    -fx-background-radius:3;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(gaussian, #0a0202, 0, 0, 0, 55454350);
+    -fx-background-color:linear-gradient(to top,#030303,#0f0f0f,#171717,#212121,#0f0f0f,#292929,#3b3b3b,#3d3d3d);
+}
+
+#exit:hover{
+    -fx-fill:#e31c25;
+    -fx-scale-y:1.2;
+}
+
+
+.tooltip{
+    -fx-text-fill: white;
+    -fx-font-size:17.0;
+
+}
+#lock:hover{
+    -fx-fill:#e31c25;
+    -fx-scale-y:1.2;
+}
+#ulock:hover{
+    -fx-fill:#7db435;
+    -fx-scale-y:1.2;
+}
+#top{
+     -fx-background-radius:3;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(gaussian, #0a0202, 55454350, 0, 0, 0);
+    -fx-background-color:linear-gradient(to bottom,#030303,#0f0f0f,#292929,#3b3b3b,#3d3d3d);
+
+}
+
+
+
+#menubutton{
+    -fx-pref-width: 40;
+    -fx-background-color:transparent;
+    -fx-border:none;
+	
+}
+#menubutton > .arrow-button {
+    -fx-padding: 0;
+}
+
+#menubutton > .arrow-button > .arrow {
+    -fx-padding: 0;
+}
+.menu-bar {
+    -fx-background-color: black ;
+    -fx-opacity: 0.5;
+    -fx-border-width: 2.0;
+
+}
+
+
+
+.menu-bar .label {
+    -fx-font-size: 14.0 pt;
+    -fx-font-family: "Bookman Old Style";
+    -fx-text-fill: #ff6939;
+    -fx-font-weight: bold; 
+    -fx-padding: 10.0px;
+
+}
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing {
+    -fx-background: black ;
+    -fx-opacity: 0.5;
+    -fx-text-fill: #ff6939;
+}
+
+.menu-item {
+    -fx-pref-width: 100;
+    -fx-pref-height:30;
+    -fx-padding: 0.3em 0.1em 0.0em 0.1em;
+    -fx-text-fill:  #ff6939;
+    -fx-background: rgb(59, 57, 57) ;
+}
+.menu-item .label{
+    -fx-font-size: 14.0 pt;
+    -fx-text-fill:  #ff6939;;
+}
+.menu-item .label:hover{
+    -fx-font-size: 14.0 pt;
+    -fx-background:  #ff6939; ;
+    -fx-text-fill: #ff6939;
+}

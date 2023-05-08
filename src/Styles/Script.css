@@ -1,0 +1,76 @@
+.button{
+    -fx-focus-color:null;
+    -fx-padding: 0;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+    
+}
+
+.button:hover{
+    -fx-background-color: 
+    linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+    linear-gradient(#777777 0%, #606060 50%, #505250 51%, #2a2b2a 100%);
+    -fx-scale-y: 1.1;
+}
+
+#ms{
+   -fx-background-color:transparent;
+}
+
+#ms:hover{
+    -fx-background-color:transparent;
+ }
+
+.button:pressed {
+    -fx-scale-y: 1.2;
+    -fx-scale-x: 1.2;
+}
+
+.tooltip{
+    -fx-text-fill: white;
+    -fx-font-size:17.0;
+
+}
+.scroll-bar:horizontal .track{
+    -fx-background-color:rgb(8, 8, 8);
+}
+
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+
+.label{
+    -fx-font-size:20px;
+    -fx-font-weight: 700;
+    -fx-font-family: sans-serif;
+    -fx-background-color: transparent;
+}
+
+
+#first{
+    -fx-background-color:gray;
+}
+#left:hover{
+    -fx-background-color:rgb(170, 170, 170);
+}
+#right:hover{
+    -fx-background-color:rgb(170, 170, 170);
+}
+
+#lefti, #righti {
+    -fx-scale-x:2;
+    -fx-scale-y:2;
+    -fx-fill:#ff6939;
+}
+
+#plus{
+    -fx-alignment:top;
+    -fx-fill:#ff6939;
+}
+#lefti:hover{
+    -fx-scale-y:2.2;
+}
+#righti:hover{
+    -fx-scale-y:2.2;
+}
+
